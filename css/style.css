@@ -844,6 +844,12 @@ body {
   display: none;
 }
 
+input,
+textarea,
+select {
+  -webkit-appearance: none;
+}
+
 .guides__cards {
   display: -ms-grid;
   display: grid;
